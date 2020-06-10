@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64573" started-at="2020-06-09T21:27:36 IST" finished-at="2020-06-09T21:28:41 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="64573" started-at="2020-06-09T21:27:36 IST" finished-at="2020-06-09T21:28:41 IST">
+      <class name="orangeHRM.testcases.TC002_Fetch_EmpDetails">
+        <test-method status="PASS" signature="OrangeHRM_002()[pri:0, instance:orangeHRM.testcases.TC002_Fetch_EmpDetails@10bbd20a]" name="OrangeHRM_002" duration-ms="22195" started-at="2020-06-09T21:28:19 IST" finished-at="2020-06-09T21:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHRM_002 -->
+      </class> <!-- orangeHRM.testcases.TC002_Fetch_EmpDetails -->
+      <class name="orangeHRM.testcases.TC001_Login_DiffRoles">
+        <test-method status="PASS" signature="login()[pri:0, instance:orangeHRM.testcases.TC001_Login_DiffRoles@64729b1e]" name="login" is-config="true" duration-ms="50446" started-at="2020-06-09T21:26:46 IST" finished-at="2020-06-09T21:27:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:orangeHRM.testcases.TC001_Login_DiffRoles@64729b1e]" name="setData" is-config="true" duration-ms="0" started-at="2020-06-09T21:27:36 IST" finished-at="2020-06-09T21:27:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="OrangeHRM_001(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:orangeHRM.testcases.TC001_Login_DiffRoles@64729b1e]" name="OrangeHRM_001" duration-ms="13651" started-at="2020-06-09T21:27:58 IST" data-provider="readData" finished-at="2020-06-09T21:28:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jacqueline White]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHRM_001 -->
+        <test-method status="PASS" signature="OrangeHRM_001(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:orangeHRM.testcases.TC001_Login_DiffRoles@64729b1e]" name="OrangeHRM_001" duration-ms="7521" started-at="2020-06-09T21:28:11 IST" data-provider="readData" finished-at="2020-06-09T21:28:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linda.anderson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Linda Anderson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHRM_001 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:orangeHRM.testcases.TC001_Login_DiffRoles@64729b1e]" name="closeBrowser" is-config="true" duration-ms="542" started-at="2020-06-09T21:28:41 IST" finished-at="2020-06-09T21:28:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- orangeHRM.testcases.TC001_Login_DiffRoles -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
